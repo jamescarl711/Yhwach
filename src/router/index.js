@@ -48,6 +48,16 @@ const router = createRouter({
       name: 'TailwindTemplate',
       component: () => import('@/views/guest/Tailwind_templateView.vue'),
     },
+    {
+      path: '/createcourse',
+      name: 'createCourse',
+      component: () => import('@/views/guest/CreatecourseView.vue'),
+    },
+    {
+      path: '/events',
+      name: 'events',
+      component: () => import('@/views/guest/EventsView.vue'),
+    },
   ],
 })
 
